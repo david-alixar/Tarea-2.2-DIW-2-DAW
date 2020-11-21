@@ -1,0 +1,234 @@
+/********************** PRESENTACIÓN ***********************/
+#presentacion {
+  padding: 2rem;
+  padding-top: 0rem;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+#fotopresentacion {
+  width: 80%;
+  height: 70%;
+}
+
+/************************ IES Alixar *********************/
+#iesalixar {
+  padding: 2rem;
+  padding-top: 0rem;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+/* Foto escudo IES Alixar */
+
+#fotoescudo {
+  transition: width 3s, height 2s, border-radius 2s;
+}
+
+#fotoescudo:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+/******************** ACADÉMICO *********************/
+#academico {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 8rem;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+ol {
+  padding: 1rem;
+}
+
+/********Tabla módulos **********/
+#tablamodulos {
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+#tablamodulos td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablamodulos tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tablamodulos tr:hover {
+  background-color: #ddd;
+}
+
+#tablamodulos th {
+  padding: 1rem;
+  text-align: left;
+  background-color: rgb(5, 80, 57);
+  color: white;
+}
+
+#listaModulos {
+  padding-left: 3rem;
+}
+
+#fotomodulo {
+  width: 80px;
+  height: 60px;
+  margin: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/************* Tabla tareas ****************/
+#tablatareas {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#tablatareas td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablatareas tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tablatareas tr:hover {
+  background-color: #ddd;
+}
+
+#tablatareas th {
+  padding: 1rem;
+  text-align: left;
+  background-color: rgb(5, 80, 57);
+  color: white;
+}
+
+.listaTareas {
+  color: #4caf50;
+}
+
+ul {
+  list-style: none;
+  padding: 0rem;
+}
+
+/******** IMÁGENES ********/
+img {
+  width: 40%;
+  height: 40%;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  transition-property: width, height, transform;
+  transition-duration: 2s, 2s, 1s;
+  transition-timing-function: linear;
+}
+
+img:hover {
+  opacity: 1;
+  width: 200px;
+  height: 100px;
+  transform: translate(10px);
+}
+
+/******* TAMAÑOS PANTALLAS ********/
+
+@media only screen and (min-width: 576px) {
+  #presentacion {
+    display: flex;
+    align-items: center;
+  }
+  #descripcion {
+    width: 85%;
+  }
+  #iesalixar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  #textoiesalixar {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #presentacion {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #descripcion {
+    width: 80%;
+    font-size: 1.5vw;
+  }
+  #fotopresentacion {
+    width: 100%;
+  }
+
+  #iesalixar {
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+  }
+  #textoiesalixar {
+    width: 80%;
+    font-size: 1.5vw;
+  }
+  #fotoescudo {
+    margin-left: 0rem;
+    height: 150px;
+    width: 150px;
+  }
+  #iframe {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #academico {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+  }
+  #modulos {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+  #tablamodulos {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  #tareas {
+    width: 100%;
+    font-size: 1.5vw;
+  }
+  #tablatareas {
+    width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}

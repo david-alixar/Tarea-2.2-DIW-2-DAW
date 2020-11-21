@@ -1,0 +1,88 @@
+/********** GENERAL CONTAINER ***********/
+
+#container {
+  background-image: url("../img/fondo.jpg");
+  padding: 1rem;
+}
+
+#espaciotarea {
+  padding: 2rem;
+  padding-top: 0rem;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(255, 255, 255, 0.603);
+  padding-bottom: 1.5rem;
+  margin-bottom: 8rem;
+}
+
+/******** Características imágenes general **********/
+img {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+/*********************************** Actividad ****************************************/
+table,
+tr,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+h3#titulo {
+  color: teal;
+}
+
+strong {
+  color: red;
+}
+span.destacado {
+  color: orange;
+}
+
+h4#subtitulo {
+  color: blue;
+}
+
+span.especial {
+  color: purple;
+}
+
+.container a {
+  color: red;
+}
+.container a em {
+  color: blue;
+}
+
+div#adicional p {
+  color: olive;
+}
+div#adicional span#especial {
+  color: fuchsia;
+}
+div#adicional a {
+  color: green;
+}
+
+caption {
+  color: blue;
+}
+td {
+  color: green;
+}
+td strong {
+  color: orange;
+}
+th {
+  color: red;
+}
+th.especial {
+  color: orange;
+}

@@ -1,0 +1,120 @@
+/********** GENERAL CONTAINER ***********/
+
+#container {
+  background-image: url("../img/fondo.jpg");
+  padding: 1rem;
+}
+
+#espaciotarea {
+  padding: 2rem;
+  padding-top: 0rem;
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: rgba(255, 255, 255, 0.603);
+  padding-bottom: 1.5rem;
+  margin-bottom: 8rem;
+  height: 500px;
+}
+
+/******** Características imágenes general **********/
+img {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+/*********************************** Actividad ****************************************/
+
+div.borderradius {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.borderradiusa {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  height: 65px;
+  width: 160px;
+  text-align: center;
+  border-bottom-right-radius: 55px;
+}
+
+.borderradiusb {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  height: 65px;
+  width: 160px;
+  text-align: center;
+  border-bottom-right-radius: 35px;
+}
+
+.borderradiusc {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  height: 65px;
+  width: 160px;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+}
+
+.borderradiusd {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 12em;
+  height: 5em;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 15px;
+}
+
+.borderradiuse {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  height: 65px;
+  width: 160px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.borderradiusf {
+  background-color: gray;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.borderradius {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
